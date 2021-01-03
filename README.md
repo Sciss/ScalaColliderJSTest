@@ -39,7 +39,7 @@ And open the corresponding page in a browser, e.g.
     xdg-open http://127.0.0.1:8000
 
 Hint: when recompiling, it's useful in Chrome/Chromium to disable the caching of js files:
-In 'Developer tools', in tab 'Network', check 'Disable cache'. If you increment the 'BUILD_NUMBER'
+In 'Developer tools', in tab 'Network', check 'Disable cache'. If you increment the `BUILD_NUMBER`
 the source code, you can verify in the browser console that the latest build has indeed been loaded.
 
 In the browser console (ctrl-shift-J in Chrome/Chromium), after booting the server ('Boot' button):
@@ -58,7 +58,7 @@ In the browser console (ctrl-shift-J in Chrome/Chromium), after booting the serv
 
 All the example code is in `ScalaColliderTest.scala`. To edit the project, you can use, for example,
 [IntelliJ IDEA](https://www.jetbrains.com/idea/download/) with Scala plugin, or [VS Code/Codium](https://vscodium.com/)
-with [Metals])(https://scalameta.org/metals/) plugin.
+with [Metals](https://scalameta.org/metals/) plugin.
 
 For continuous development, you can run `sbt` without arguments, and on the sbt console enter `~fastOptJS`.
 Then the compiler will always rebuild the project when it detects source code changes.
