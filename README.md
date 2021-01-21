@@ -11,6 +11,9 @@ Consequently, this project is released under AGPL v3+ as well.
 It includes the binary wasm build of scsynth in the `lib` directory, for source code see
 [here](https://github.com/Sciss/supercollider/tree/wasm).
 
+For a more comprehensive project that supports the SoundProcesses framework (in which ScalaCollider is
+embedded), see [this project](https://github.com/Sciss/SoundProcessesJSTest).
+
 ## building and running
 
 A demo may or may not be already running at [www.sciss.de/temp/scalacollider.js](https://www.sciss.de/temp/scalacollider.js/).
